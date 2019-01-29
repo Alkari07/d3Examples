@@ -1,0 +1,42 @@
+{
+    "nodes": [
+      {"id": "Tripoli Camp 1",
+      "name": "Tripoli Camp 1"},
+      {"id": "Tripoli Camp 2"},
+      {"id": "Intel Report 1"},
+      {"id": "Intel Report 2"},
+      {"id": "Intel Report 3"},
+      {"id": "Craig's Car"},
+      {"id": "Rob's Car"},
+      {"id": "Craig"},
+      {"id": "Tony"},
+      {"id": "Mike"},
+      {"id": "Rob"},
+      {"id": "Suspicious Cellphone"},
+      {"id": "Evil e-mail"}
+    ],
+    "links": [
+      {"source": "Tripoli Camp 1", "target": "Intel Report 1"},
+      {"source": "Tripoli Camp 1", "target": "Intel Report 2"},
+      {"source": "Tripoli Camp 2", "target": "Intel Report 2"},
+      {"source": "Tripoli Camp 2", "target": "Intel Report 3"},
+      {"source": "Intel Report 1", "target": "Craig's Car"},
+      {"source": "Intel Report 1", "target": "Craig"},
+      {"source": "Intel Report 1", "target": "Mike"},
+      {"source": "Intel Report 2", "target": "Rob's Car"},
+      {"source": "Intel Report 2", "target": "Rob"},
+      {"source": "Intel Report 2", "target": "Suspicious Cellphone"},
+      {"source": "Intel Report 2", "target": "Rob's Car"},
+      {"source": "Intel Report 2", "target": "Rob"},
+      {"source": "Intel Report 2", "target": "Tony"},
+      {"source": "Intel Report 2", "target": "Evil e-mail"},
+      {"source": "Rob", "target": "Craig"},
+      {"source": "Rob", "target": "Tony"},
+      {"source": "Rob", "target": "Rob's Car"},
+      {"source": "Rob", "target": "Evil e-mail"},
+      {"source": "Craig", "target": "Mike"},
+      {"source": "Craig", "target": "Tony"},
+      {"source": "Craig", "target": "Craig's Car"},
+      {"source": "Craig", "target": "Rob's Car"}
+    ]
+  }

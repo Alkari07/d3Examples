@@ -64,7 +64,8 @@
         node.call(force.drag);
         node.on('click', function() {
             console.log('Node was clicked: ', this);
-        })
+        });
+        
 
 
         var anchorLink = vis.selectAll("line.anchorLink").data(labelAnchorLinks)//.enter().append("svg:line").attr("class", "anchorLink").style("stroke", "#999");

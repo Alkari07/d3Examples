@@ -33,6 +33,18 @@ app.get('/directedGraphs/forceLabelGraph', function(req, res) {
     res.type('text/html');
     res.render('directedGraphs/forceLabelGraph');
 });
+app.get('/directedGraphs/forceLabelGraph', function(req, res) {
+    res.type('text/html');
+    res.render('directedGraphs/forceLabelGraph');
+});
+app.get('/directedGraphs/nodesLinkedByName', function(req, res) {
+    res.type('text/html');
+    res.render('directedGraphs/nodesLinkedByName');
+});
+app.get('/directedGraphs/simpleLabelGraph', function(req, res) {
+    res.type('text/html');
+    res.render('directedGraphs/simpleLabelGraph');
+});
 
 /**
  * Handlers
